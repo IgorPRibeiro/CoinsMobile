@@ -1,0 +1,2 @@
+- npm i
+- To open the expo: ```npm run start```
