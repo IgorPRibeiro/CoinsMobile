@@ -1,5 +1,7 @@
 {
+  "scheme": "listra-coins",
   "expo": {
+    "scheme": "listra-coins",
     "name": "ListraCoins",
     "slug": "ListraCoins",
     "version": "1.0.0",
@@ -22,6 +24,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Sora-Regular.ttf",
+            "./assets/fonts/Sora-Bold.ttf.ttf",
+            "./assets/fonts/Sora-Medium.ttf"
+          ]
+        }
+      ],
+      "expo-router"
+    ]
   }
 }
