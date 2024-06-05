@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
   text: {
-    fontFamily: "Sora-Regular.ttf",
+    fontFamily: "Sora-Regular",
     color: COLORS.neutral.gray50,
     fontSize: 14,
     opacity: 1

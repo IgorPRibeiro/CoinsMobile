@@ -4,20 +4,20 @@
       "name": "Igor",
       "email": "igor@gmail.com",
       "password": "igor1234",
-      "balance": 5000.00
+      "balance": 5000.0
     },
     {
       "name": "Teste",
       "email": "teste@gmail.com",
       "password": "teste1234",
-      "balance": 5000.00
+      "balance": 5000.0
     }
   ],
   "products": [
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -25,7 +25,7 @@
     {
       "id": "2",
       "name": "Relógio DaHora",
-      "value": 800.00,
+      "value": 800.0,
       "sale": false,
       "units": 20,
       "image": "https://tm.ibxk.com.br/2014/10/15/15124248548367.jpg"
@@ -33,7 +33,7 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -41,7 +41,7 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -49,7 +49,7 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -57,7 +57,7 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -65,7 +65,7 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
@@ -73,11 +73,10 @@
     {
       "id": "1",
       "name": "Notebook L24",
-      "value": 4000.00,
+      "value": 4000.0,
       "sale": false,
       "units": 40,
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
-    },
-    
+    }
   ]
 }

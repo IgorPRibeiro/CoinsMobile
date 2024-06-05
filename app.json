@@ -31,7 +31,7 @@
         {
           "fonts": [
             "./assets/fonts/Sora-Regular.ttf",
-            "./assets/fonts/Sora-Bold.ttf.ttf",
+            "./assets/fonts/Sora-Bold.ttf",
             "./assets/fonts/Sora-Medium.ttf"
           ]
         }

@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TextProps, TextStyle, View } from "react-native";
+import {  Text, TextProps, TextStyle } from "react-native";
 import React from "react";
 import styles from "./styleTextComponent";
 import COLORS from "@/constants/colors";
@@ -34,25 +34,25 @@ const TextComponent = ({
     switch (type) {
       case "bold":
         return {
-          fontFamily: "Sora-Bold.ttf",
+          fontFamily: "Sora-Bold",
           fontSize: size ?? 22,
           fontWeight: "bold",
         };
       case "medium":
         return {
-          fontFamily: "Sora-Medium.ttf",
+          fontFamily: "Sora-Medium",
           fontSize: size ?? 22,
           fontWeight: "600",
         };
       case "regular":
         return {
-          fontFamily: "Sora-Regular.ttf",
+          fontFamily: "Sora-Regular",
           fontSize: size ?? 22,
         };
      
       default:
         return {
-          fontFamily: "Sora-Regular.ttf",
+          fontFamily: "Sora-Regular",
           fontSize: size ?? 22,
         };
     }

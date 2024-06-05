@@ -1,23 +1,26 @@
 import { View, Text, ImageBackground } from "react-native";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import styles from "@/styles/splashStyle";
 import images from "@/constants/images";
 import Wallet from "../../assets/icons/Wallet";
 import { StatusBar } from "expo-status-bar";
-import COLORS from "@/constants/colors";
 import TextComponent from "@/components/TextComponent/TextComponent";
+import * as SplashScreen from 'expo-splash-screen';
+
+SplashScreen.preventAutoHideAsync();
 
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withSpring,
-  withRepeat,
   withTiming,
 } from "react-native-reanimated";
 import { deviceHeight } from "@/constants/device";
 import LoginComponent from "@/components/LoginComponent/LoginComponent";
+import useLoadAppFonts from "@/hooks/useLoadAppFonts";
 
 const Splash = () => {
+  const {appIsReady,onLayoutRootView} = useLoadAppFonts()
   const [initAnimation, setInitAnimation] = useState(false);
   const offset = useSharedValue<number>(0);
   const opacityValue = useSharedValue<number>(1);
@@ -26,7 +29,6 @@ const Splash = () => {
     transform: [{ translateY: offset.value }],
     opacity: opacityValue.value,
   }));
-
 
 
   useEffect(() => {
@@ -46,8 +48,12 @@ const Splash = () => {
     return () => {};
   }, [initAnimation]);
 
+  if (!appIsReady) {
+    return null
+  }
+
   return (
-    <ImageBackground source={images.coinBackGround} style={styles.background}>
+    <ImageBackground onLayout={onLayoutRootView} source={images.coinBackGround} style={styles.background}>
       <StatusBar />
 
       <View style={styles.page}>

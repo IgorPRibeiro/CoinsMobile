@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     marginTop: 32
   },
 
-  registerContainer: {flex: 1,justifyContent: "center", padding: 12}
+  registerContainer: {flex: 1,justifyContent: "center", padding: 12},
 
 
 });

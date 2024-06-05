@@ -2,6 +2,7 @@ import {
   StyleSheet,
   Text,
   TextInput,
+  TextInputProps,
   TouchableOpacity,
   View,
 } from "react-native";
@@ -10,7 +11,7 @@ import People from "../../../assets/icons/People";
 import styles from "./styleTextInputComponent";
 import COLORS from "@/constants/colors";
 
-interface ITextInputComponent {
+interface ITextInputComponent extends TextInputProps {
   changeValue: (value: string) => void;
   Icon?: () => JSX.Element;
   label?: string;
@@ -20,6 +21,7 @@ const TextInputComponent = ({
   Icon,
   changeValue,
   label,
+  ...props
 }: ITextInputComponent) => {
   const [valueInput, setValueInput] = useState<string>("");
 
@@ -37,6 +39,7 @@ const TextInputComponent = ({
       )}
 
       <TextInput
+      {...props}
         style={styles.inputContainer}
         value={valueInput}
         onChange={(value) => handleChangeTextValue(value.nativeEvent.text)}
