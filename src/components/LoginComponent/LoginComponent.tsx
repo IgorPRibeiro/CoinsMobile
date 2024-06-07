@@ -15,6 +15,8 @@ import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { schema } from "./validateLoginFields";
 import { login } from "@/service/user";
+import { router } from 'expo-router';
+import userStore from "@/store/userStore";
 
 interface ILoginComponent {
   initAnimation: boolean;
@@ -26,6 +28,7 @@ interface IDataLogin {
 }
 
 const LoginComponent = ({ initAnimation }: ILoginComponent) => {
+  const {setUser} = userStore()
   const [canSubmitLogin, setCanSubmitLogin] = useState<boolean>(false);
   const {
     control,
@@ -54,7 +57,17 @@ const LoginComponent = ({ initAnimation }: ILoginComponent) => {
         email: data.email,
         passowrd: data.password,
       });
-      console.log("res",response.data)
+      console.log(response.data)
+      if (response.data) {
+        setUser({
+          balance: response.data[0].balance,
+          email: response.data[0].email,
+          name: response.data[0].name,
+          password: response.data[0].password,
+        })
+        router.push("(tabs)")
+      }
+
     } catch (error) {
       console.log(error);
     }

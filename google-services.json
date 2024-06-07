@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757685381017",
+    "project_id": "igcoins",
+    "storage_bucket": "igcoins.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757685381017:android:861a03da89d0eb690a1508",
+        "android_client_info": {
+          "package_name": "com.lccoins.android.package"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCphV0rB0xt5NUorIYs51C2sRSDvl_hWC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

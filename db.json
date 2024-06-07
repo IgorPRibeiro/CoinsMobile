@@ -31,7 +31,57 @@
       "image": "https://tm.ibxk.com.br/2014/10/15/15124248548367.jpg"
     },
     {
-      "id": "1",
+      "id": "3",
+      "name": "Samsung T350 - Monitor Gamer, 24, FHD, 75Hz, HDMI, VGA, Freesync, Preto",
+      "value": 562.85,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/61XJEwvCL8L._AC_SL1100_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Mouse Dell MS116 Preto",
+      "value": 69.53,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/41XyL-vTYBL._AC_SL1000_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Código Limpo: Habilidades Práticas do Agile Software",
+      "value": 88.37,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/71dH97FwGbL._SL1500_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos",
+      "value": 63.80,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg"
+    },
+    {
+      "id": "7",
+      "name": " Apple notebook MacBook Air (de 13 polegadas, Processador M1 da Apple com CPU 8‑core e GPU 7‑core, 8 GB RAM, 256 GB) - Cinza espacial",
+      "value": 6799.99,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/41J9j6iVDvS._AC_SL1000_.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Elden Ring - PlayStation 5",
+      "value": 269.0,
+      "sale": false,
+      "units": 40,
+      "image": "https://m.media-amazon.com/images/I/6161slXZUTL._AC_SL1000_.jpg"
+    }
+  ],
+  "products2": [
+    {
+      "id": "12",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,
@@ -39,7 +89,7 @@
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
     },
     {
-      "id": "1",
+      "id": "22",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,
@@ -47,7 +97,7 @@
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
     },
     {
-      "id": "1",
+      "id": "32",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,
@@ -55,7 +105,7 @@
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
     },
     {
-      "id": "1",
+      "id": "42",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,
@@ -63,7 +113,7 @@
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
     },
     {
-      "id": "1",
+      "id": "52",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,
@@ -71,7 +121,31 @@
       "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
     },
     {
-      "id": "1",
+      "id": "62",
+      "name": "Notebook L24",
+      "value": 4000.0,
+      "sale": false,
+      "units": 40,
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
+    },
+    {
+      "id": "72",
+      "name": "Notebook L24",
+      "value": 4000.0,
+      "sale": false,
+      "units": 40,
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
+    },
+    {
+      "id": "82",
+      "name": "Notebook L24",
+      "value": 4000.0,
+      "sale": false,
+      "units": 40,
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/15-3520/media-gallery/notebook-inspiron-15-3520-black-gallery-10.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full"
+    },
+    {
+      "id": "92",
       "name": "Notebook L24",
       "value": 4000.0,
       "sale": false,

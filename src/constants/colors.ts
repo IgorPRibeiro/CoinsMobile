@@ -1,7 +1,8 @@
 const COLORS = {
   primary: {
     roxo: "#7B22D3",
-    verdeAzulado: "#18E1BD"
+    verdeAzulado: "#18E1BD",
+    white: "#FFFFFF"
   },
   neutral: {
     gray50: "#F9F9F9",

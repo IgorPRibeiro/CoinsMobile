@@ -6,10 +6,8 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.primary.roxo,
     justifyContent: "center",
     alignItems: "center",
-    paddingVertical: 8,
-    paddingHorizontal: 24,
     borderRadius: 24,
-    
+    alignContent: "center"
   }
 })
 

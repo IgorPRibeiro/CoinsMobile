@@ -7,7 +7,7 @@ interface ITextComponent extends Omit<TextProps, "style"> {
   type?: "bold" | "regular" | "medium" | "bold" | "disable";
   text: string;
   size?: number;
-  theme?: "light" | "dark" | "gray" ;
+  theme?: "light" | "dark" | "gray" | "primary" ;
 }
 
 const TextComponent = ({
@@ -17,6 +17,11 @@ const TextComponent = ({
   theme,
   ...props
 }: ITextComponent) => {
+
+  const removeRs = (value: string) => {
+    return value.replaceAll("R$ ", "")
+  }
+
   const renderColor = () => {
     switch (theme) {
       case "dark":
@@ -25,6 +30,8 @@ const TextComponent = ({
         return COLORS.neutral.gray50;
       case "gray":
         return COLORS.neutral.gray100;
+      case "primary":
+        return COLORS.primary.roxo;
       default:
         return COLORS.neutral.gray50;
     }
@@ -62,8 +69,9 @@ const TextComponent = ({
     <Text
       {...props}
       style={{ ...styles.text, ...typeStyleComponent(), color: renderColor() }}
+      numberOfLines={2}
     >
-      {text}
+      {removeRs(text)}
     </Text>
   );
 };

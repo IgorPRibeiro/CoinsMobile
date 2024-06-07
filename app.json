@@ -3,7 +3,7 @@
   "expo": {
     "scheme": "listra-coins",
     "name": "ListraCoins",
-    "slug": "ListraCoins",
+    "slug": "lccoinsproject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,6 +17,7 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -37,6 +38,15 @@
         }
       ],
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ed5bc2af-ab43-4b1c-8d80-4343e62a03a0"
+      }
+    },
+    "owner": "igcoins"
   }
 }
