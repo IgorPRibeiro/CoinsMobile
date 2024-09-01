@@ -1,11 +1,12 @@
 import { create } from "zustand";
 import { immer } from "zustand/middleware/immer";
-import { persist } from "zustand/middleware";
+import { createJSONStorage, persist } from "zustand/middleware";
+import { StorageApp } from "@/hooks/storage";
 
 interface IUser {
   name: string;
   email: string;
-  password: string;
+  id: number;
   balance: number;
 }
 
@@ -16,18 +17,13 @@ type State = {
 type Actions = {
   setUser: (user: IUser) => void;
   buyItem: (value: number) => void;
-  clearUser: () => void
+  clearUser: () => void;
 };
 
 const userStore = create<State & Actions>()(
   persist(
     immer((set, get) => ({
-      user: {
-        name: "Igor",
-        email: "igor@gmail.com",
-        password: "igor1234",
-        balance: 5000.0,
-      },
+      user: null,
       setUser: (user) => {
         set({
           user,
@@ -50,12 +46,13 @@ const userStore = create<State & Actions>()(
       },
       clearUser: () => {
         set({
-          user: null
-        })
-      }
+          user: null,
+        });
+      },
     })),
     {
       name: "user-storage",
+      storage: createJSONStorage(() => new StorageApp()),
     }
   )
 );
